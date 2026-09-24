@@ -1,0 +1,76 @@
+.container {
+  padding: 20px;
+  border-radius: 8px;
+  max-width: 500px;
+  margin: 30px auto;
+  text-align: center;
+  transition: background 0.3s, color 0.3s;
+}
+
+.light {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+.dark {
+  background-color: #242629;
+  color: #ffffff;
+}
+
+.inputSection {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.inputSection input {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.inputSection button {
+  padding: 10px 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: #1e90ff;
+  color: white;
+}
+
+.inputSection button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.taskList {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.taskItem {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  background-color: rgba(128, 128, 128, 0.15);
+}
+
+.removeButton {
+  padding: 6px 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  background-color: #d9534f;
+  color: white;
+}
+
+.emptyMessage {
+  opacity: 0.7;
+}
